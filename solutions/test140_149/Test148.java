@@ -144,6 +144,6 @@ class Test148 {
         head.next.next = new ListNode(1);
         head.next.next.next = new ListNode(3);
         Test148 test = new Test148();
-        test.sortList2(head);
+        // test.sortList2(head);
     }
 }

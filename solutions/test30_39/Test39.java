@@ -20,13 +20,13 @@ candidates 中的数字可以无限制重复被选取。
  */
 public class Test39 {
 	
-	private List<List<Integer>> res = new ArrayList<>();
+	private List<List<Integer>> res = new ArrayList<List<Integer>>();
 	private int[] candidates;
 	private int len;
 	
 	private void findCombinationSum(int residue, int start, Stack<Integer> pre) {
 		if(residue == 0) {
-			res.add(new ArrayList<>(pre));
+			res.add(new ArrayList<Integer>(pre));
 			return;
 		}
 		

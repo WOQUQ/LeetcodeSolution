@@ -6,7 +6,7 @@ import java.util.List;
 public class Test78 {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
-        ArrayList<Integer> empty = new ArrayList<>();
+        ArrayList<Integer> empty = new ArrayList<Integer>();
         res.add(empty);
         if(nums.length == 0) {
         	return res;
@@ -24,7 +24,7 @@ public class Test78 {
     	addNewList(newIndex+1,nums,curr,res);
     	
     	//add the new value
-    	ArrayList<Integer> list = new ArrayList<>();
+    	ArrayList<Integer> list = new ArrayList<Integer>();
     	list.addAll(curr);
     	list.add(nums[newIndex]);
     	res.add(list);

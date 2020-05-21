@@ -27,7 +27,7 @@ public class Test17 {
         char[] str7 = {'p','q','r','s'};
         char[] str8 = {'t','u','v'};
         char[] str9 = {'w','x','y','z'};
-        HashMap<Integer,char[]> map = new HashMap<>();
+        HashMap<Integer,char[]> map = new HashMap<Integer,char[]>();
         map.put(2, str2);
         map.put(3, str3);
         map.put(4, str4);

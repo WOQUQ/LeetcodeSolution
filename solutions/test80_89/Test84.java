@@ -95,7 +95,7 @@ public class Test84 {
 //    	
 //    }
     public static int largestRectangleAreaByStack(int[] heights) {
-        Stack < Integer > stack = new Stack < > ();
+        Stack < Integer > stack = new Stack <Integer > ();
         stack.push(-1);
         int maxarea = 0;
         for (int i = 0; i < heights.length; ++i) {

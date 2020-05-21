@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Test1 {
     public int[] twoSum(int[] nums, int target) {
-    	HashMap<Integer,Integer> map = new HashMap<>();
+    	HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
     	int[] result = new int[2];
 
     	for(int i = 0; i <nums.length;i++) {

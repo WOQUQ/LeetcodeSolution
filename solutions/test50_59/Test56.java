@@ -8,7 +8,7 @@ public class Test56 {
     	if(intervals.length < 2) return intervals;
     	
         intervals = qsort(intervals,0,intervals.length-1);
-        ArrayList<int[]> list = new ArrayList<>();
+        ArrayList<int[]> list = new ArrayList<int[]>();
         
         
         for(int i = 1; i < intervals.length; i++) {

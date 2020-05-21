@@ -11,7 +11,7 @@ public class Test76 {
 
     public String minWindow(String s, String t) {
     	if(s.length() == 0 || t.length() == 0) return "";
-        HashMap<Character,Integer> map = new  HashMap<>();
+        HashMap<Character,Integer> map = new  HashMap<Character,Integer>();
         for(int i = 0; i < t.length(); i++) {
         	Character temp = t.charAt(i);
         	if(map.containsKey(temp)) map.replace(temp, map.get(temp)+1);

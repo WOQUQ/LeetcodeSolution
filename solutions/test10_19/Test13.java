@@ -55,7 +55,7 @@ public class Test13 {
     	int res = 0;
 //    	int[] nums = {1000,800,500,300,100,80,50,30,10,8,5,3,1};
 //    	String[] romans = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"}; 
-    	HashMap<String,Integer> map = new HashMap<>();
+    	HashMap<String,Integer> map = new HashMap<String,Integer>();
     	map.put("M", 1000);
     	map.put("CM", 800);
     	map.put("D", 500);
