@@ -34,7 +34,7 @@ public class Test16 {
         return ans;
     }
     public static void main(String[] args) {
-		int[] nums = {0,2,1,-3};
-		System.out.println(threeSumClosest(nums,1));
+		int[] nums = {-100,-98,-2,-1};
+		System.out.println(threeSumClosest(nums,101));
 	}
 }
